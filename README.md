@@ -1,6 +1,6 @@
 # bpmn-js SubProcess Importer
 
-This [bpmn-js](https://github.com/bpmn-io/bpmn-js) extension adds a *"Import into empty subprocess"* menu item into the popup menu of collapsed and empty subprocesses. This menu item allows to populate the subprocess with contents loaded from an external BPMN model file.
+This [bpmn-js](https://github.com/bpmn-io/bpmn-js) extension adds an *"Import into empty subprocess"* menu item into the popup menu of collapsed and empty subprocesses. This menu item allows to populate the subprocess with contents loaded from an external BPMN model file.
 
 ![bpmn-js subprocess importer in action](./demo.gif)
 
