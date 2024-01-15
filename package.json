@@ -1,0 +1,16 @@
+{
+  "name": "bpmn-js-subprocess-importer",
+  "description": "A bpmn-js module allowing to populate the subprocesses with contents loaded from external BPMN model files",
+  "version": "0.1.0",
+  "keywords": [
+    "bpmn-js",
+    "bpmn"
+  ],
+  "author": {
+    "name": "Asvin Goel",
+    "url": "https://github.com/bpmn-os"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
