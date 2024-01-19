@@ -11,8 +11,11 @@ export default class SubProcessImporter {
   constructor(popupMenu, bpmnReplace, bpmnjs) {
     popupMenu.registerProvider("bpmn-replace", this);
     this.bpmnjs = bpmnjs;
-    // TODO: this should be provided as module parameter or automatically determined from bpmnjs
     this.moddleExtensions = {};
+  }
+
+  setModdleExtensions(moddleExtensions) {
+    this.moddleExtensions = moddleExtensions;
   }
 
   getPopupMenuEntries(element) {

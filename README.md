@@ -21,6 +21,25 @@ const modeler = new BpmnModeler({
 });
 ```
 
+To also copy custom model extensions, you need to provide the respective `moddleExtensions`:
+
+```javascript
+import BpmnModeler from 'bpmn-js/lib/Modeler';
+
+import SubProcessImporterModule from 'bpmn-js-subprocess-importer';
+
+var myModdleExtensions = { /* add your moddle extensions here */ };
+
+const modeler = new BpmnModeler({
+  additionalModules: [
+    SubProcessImporterModule
+  ],
+  moddleExtensions: myModdleExtensions
+});
+```
+modeler.get('subProcessImporter').setModdleExtensions(myModdleExtensions);
+
+
 ## License
 
 MIT licensed
