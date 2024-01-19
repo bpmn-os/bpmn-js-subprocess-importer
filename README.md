@@ -36,8 +36,9 @@ const modeler = new BpmnModeler({
   ],
   moddleExtensions: myModdleExtensions
 });
-```
+
 modeler.get('subProcessImporter').setModdleExtensions(myModdleExtensions);
+```
 
 
 ## License
